@@ -1,0 +1,29 @@
+{
+  "name": "dev-house",
+  "version": "0.0.0-alpha.1",
+  "description": "Dev house will manage the your build process if it consists of different tasks.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewwwald/dev-house.git"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "Dewald Laubscher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dewwwald/dev-house/issues"
+  },
+  "bin": {
+    "dev-house": "./main.js"
+  },
+  "homepage": "https://github.com/dewwwald/dev-house#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "pm2": "^2.5.0"
+  }
+}
